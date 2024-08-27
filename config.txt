@@ -1,3 +1,4 @@
+JWT_SECRET=MarcoMArcoMarco
 
 GOOGLE_ID=989612018957-81r67oln4apfnoe56l7r6qcklgpih3mf.apps.googleusercontent.com
 GOOGLE_SECRET=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
