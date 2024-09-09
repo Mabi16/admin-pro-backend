@@ -19,12 +19,14 @@ const fileUpload = (req = request, res = response) => {
         });
 
     }
-
+    console.log(req.files);
+    
     if (!req.files || Object.keys(req.files).length === 0) {
 
         return res.status(400).json({
             ok: false,
-            msg: "no hay ningun archivo en la peticion."
+            msg: "no hay ningun archivo en la peticion1.",
+            arch:req.files
         });
 
     }
